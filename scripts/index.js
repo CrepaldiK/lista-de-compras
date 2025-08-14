@@ -7,9 +7,11 @@ const botaoAdicionar = document.getElementById("adicionar-item");
 botaoAdicionar.addEventListener("click", (evento) => {
     evento.preventDefault();
     const itemDaLista = criarItemDaLista();
-    listaDeCompras.appendChild(itemDaLista)
-    verificarListaVazia(listaDeCompras);
-    document.getElementById("input-item").value = "";
-})
+    if (itemDaLista) {
+        listaDeCompras.appendChild(itemDaLista)
+        verificarListaVazia(listaDeCompras);
+        document.getElementById("input-item").value = "";
+    };
+});
 
 verificarListaVazia(listaDeCompras);

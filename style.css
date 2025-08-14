@@ -163,12 +163,13 @@ ul {
     width: 100%;
 }
 
-.acoes-item {
-    display: flex;
-}
 .botao-editar, .botao-excluir {
     background-color: transparent;
     border: none;
     cursor: pointer;
     filter: invert(26%) sepia(27%) saturate(3683%) hue-rotate(327deg) brightness(106%) contrast(94%);
+}
+
+.botao-editar img, .botao-excluir img {
+    width: 18px;
 }
