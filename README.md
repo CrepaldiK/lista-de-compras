@@ -11,11 +11,11 @@ Acesse o projeto em produção:
 
 ## ✨ Funcionalidades
 
-- ✅ **Adicionar itens** à lista de compras
-- ☑️ **Marcar como comprado** com checkbox (item riscado ao ser marcado)
-- ✏️ **Editar** o nome de um item já adicionado
-- 🗑️ **Excluir** itens da lista com confirmação
-- 💬 **Mensagem dinâmica** quando a lista está vazia
+- **Adicionar itens** à lista de compras
+- **Marcar como comprado** com checkbox (item riscado ao ser marcado)
+- **Editar** o nome de um item já adicionado
+- **Excluir** itens da lista com confirmação
+- **Mensagem dinâmica** quando a lista está vazia
 
 ---
 
