@@ -63,9 +63,6 @@ lista-de-compras/
      ```bash
      npx serve .
      ```
-
-> ⚠️ Abrir o `index.html` diretamente pelo navegador (protocolo `file://`) não funcionará devido ao uso de módulos JavaScript.
-
 ---
 
 ## 📚 Aprendizados
